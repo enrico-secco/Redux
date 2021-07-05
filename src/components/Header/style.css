@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 15px 0;
+    padding: 10px 10px;
+}
+
+.logo{
+    max-width: 110px;
+    max-height: 110px;
+}
+
+.reserva{
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.reserva div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin-right: 10px;
+}
+
+.reserva strong{
+    color: #fff;
+}
+
+.reserva span{
+    color: #ddd;
+    font-size: 15px;
+}
+
